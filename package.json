@@ -35,6 +35,7 @@
   ],
   "type": "module",
   "scripts": {
+    "deploy": "deploy.sh",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",

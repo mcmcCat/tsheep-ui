@@ -33,7 +33,7 @@
         <el-button type="info">信息按钮</el-button>
         <el-button type="warning">警告按钮</el-button>
         <el-button type="danger">危险按钮</el-button>
-        <el-button type="text">文字按钮</el-button>
+        <el-button link >文字按钮1</el-button>
         <br>
         <br>
         <el-button plain>朴素按钮</el-button>
