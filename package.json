@@ -1,0 +1,56 @@
+{
+  "name": "tsheep-ui",
+  "private": false,
+  "version": "0.0.6",
+  "main": "./dist/tsheep-ui.umd.cjs",
+  "module": "./dist/tsheep-ui.js",
+  "exports": {
+    ".": {
+      "import": "./dist/tsheep-ui.js",
+      "require": "./dist/tsheep-ui.umd.cjs"
+    }
+  },
+  "files": [
+    "dist/*"
+  ],
+  "author": {
+    "name": "tispo8",
+    "email": "a526008246@163.com"
+  },
+  "contributors": [
+    {
+      "name": "tispo8",
+      "email": "a526008246@163.com"
+    },
+    {
+      "name": "y_aurora",
+      "email": "13192706165@163.com"
+    }
+  ],
+  "license": "ISC",
+  "keywords": [
+    "npm",
+    "package",
+    "ui"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "sass": "^1.62.1",
+    "tsheep-ui": "^0.0.6",
+    "vitepress": "^1.0.0-alpha.74",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "element-plus": "^2.3.4",
+    "vite": "^4.3.2"
+  }
+}
