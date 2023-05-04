@@ -1,7 +1,7 @@
 {
   "name": "tsheep-ui",
   "private": false,
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "./dist/tsheep-ui.umd.cjs",
   "module": "./dist/tsheep-ui.js",
   "exports": {
@@ -27,7 +27,7 @@
       "email": "13192706165@163.com"
     }
   ],
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "npm",
     "package",
@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "sass": "^1.62.1",
-    "tsheep-ui": "^0.0.6",
+    "tsheep-ui": "^0.0.7",
     "vitepress": "^1.0.0-alpha.74",
     "vue": "^3.2.47"
   },
