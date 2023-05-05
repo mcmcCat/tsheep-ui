@@ -33,6 +33,11 @@
     "package",
     "ui"
   ],
+  "repository": {
+    "type": "gitee",
+    "url": "https://gitee.com/tow-youngui/tsheep-ui"
+  },
+  "homepage": "https://tow-youngui.gitee.io/tsheep-ui/",
   "type": "module",
   "scripts": {
     "deploy": "deploy.sh",

@@ -9,7 +9,7 @@ cd docs/.vitepress/dist
 
 git init
 git add -A
-git commit -m '测试icon组件文档是否异常2'
+git commit -m '更新了指南的md'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f https://gitee.com/tow-youngui/tsheep-ui.git master:gh-pages

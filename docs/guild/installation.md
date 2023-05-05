@@ -16,17 +16,17 @@ TwoYoung UI 目前还在开发迭代中
 
 ## NPM
 ```JavaScript
-$ npm install ty-ui --save
+$ npm install tsheep-ui@latest --save
 ```
 
 ## Yarn
 ```JavaScript
-$ yarn add ty-ui
+$ yarn add tsheep-ui@latest
 ```
 
 ## pnpm
 ```JavaScript
-$ pnpm install ty-ui
+$ pnpm install tsheep-ui@latest
 ```
 
 ## 浏览器直接引入
