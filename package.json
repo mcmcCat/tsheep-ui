@@ -41,6 +41,8 @@
   "type": "module",
   "scripts": {
     "deploy": "deploy.sh",
+    "release": "release-it",
+    "commit": "git-cz",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -55,8 +57,11 @@
     "vue": "^3.2.47"
   },
   "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
     "@vitejs/plugin-vue": "^4.1.0",
     "element-plus": "^2.3.4",
+    "git-cz": "^4.9.0",
+    "release-it": "^15.10.3",
     "vite": "^4.3.2"
   }
 }
