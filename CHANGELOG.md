@@ -1,5 +1,12 @@
 
 
+## [0.1.0](https://gitee.com/tow-youngui/tsheep-ui/compare/0.1.0-2...0.1.0) (2023-05-07)
+
+
+### ✨新功能
+
+* 🎸 新组件selector已添加 ([0ff9205](https://gitee.com/tow-youngui/tsheep-ui/commit/0ff9205f67abb31cee7a1eaacda807a2c1b6861b))
+
 ## [0.1.0-2](https://gitee.com/tow-youngui/tsheep-ui/compare/0.1.0-1...0.1.0-2) (2023-05-07)
 
 
