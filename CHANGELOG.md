@@ -1,5 +1,12 @@
 
 
+## [0.1.0-2](https://gitee.com/tow-youngui/tsheep-ui/compare/0.1.0-1...0.1.0-2) (2023-05-07)
+
+
+### 👷项目测试
+
+* 💍 selector测试完毕 ([63b76a7](https://gitee.com/tow-youngui/tsheep-ui/commit/63b76a71bc9edee28460757182584d4484e6f6ce))
+
 ## [0.1.0-1](https://gitee.com/tow-youngui/tsheep-ui/compare/0.1.0-0...0.1.0-1) (2023-05-07)
 
 
