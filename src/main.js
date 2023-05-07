@@ -1,6 +1,6 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import TYUI from "../packages/index.js"; //开发新组件记得把这个tsheep-ui 改为 "../packages/index.js"
+import TYUI from "tsheep-ui"; //开发新组件记得把这个tsheep-ui 改为 "../packages/index.js"
 import "../dist/style.css";
 
 const app = createApp(App);
