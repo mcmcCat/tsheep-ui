@@ -1,0 +1,23 @@
+{
+  "id": "4052344",
+  "name": "TowYoung UI",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "35348729",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "28768999",
+      "name": "s-下箭头",
+      "font_class": "s-xiajiantou",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    }
+  ]
+}
