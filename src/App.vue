@@ -18,7 +18,7 @@
   }
 </script>
 <script setup>
-  // 导入下拉菜单的选项数据（用户可以自定义）
+  // 导入下拉菜单的选项数据（用户可以自定义 ）
   import selectorData from '@/assets/data/selector.js'
   import { ref } from 'vue'
 
