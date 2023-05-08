@@ -1,23 +1,23 @@
 {
-  "hash": "e4a20fbb",
-  "browserHash": "37c76dbf",
+  "hash": "a260f27f",
+  "browserHash": "3cca42c3",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "88fa3dfe",
+      "fileHash": "ee5d8c81",
       "needsInterop": false
     },
-    "element-plus": {
-      "src": "../../../../node_modules/element-plus/es/index.mjs",
-      "file": "element-plus.js",
-      "fileHash": "5b7cf063",
+    "tsheep-ui": {
+      "src": "../../../../node_modules/tsheep-ui/dist/tsheep-ui.js",
+      "file": "tsheep-ui.js",
+      "fileHash": "b99782e7",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-YJNUPD57": {
-      "file": "chunk-YJNUPD57.js"
+    "chunk-R647EDCJ": {
+      "file": "chunk-R647EDCJ.js"
     }
   }
 }

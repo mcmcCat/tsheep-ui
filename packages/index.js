@@ -11,5 +11,5 @@ const TYUI = {
   install,
 };
 
-export { tyButton, tyInput, tySelector }; //分别导出，按需引入时 main.js 里用到 import { tyButton,tyInput } from 'TUI'
+export { tyButton, tyInput, tySelector }; //分别导出，按需引入时 main.js 里用到 import { tyButton,tyInput } from 'TYUI'
 export default TYUI; // 全局导出

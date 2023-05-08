@@ -9,7 +9,7 @@ cd docs/.vitepress/dist
 
 git init
 git add -A
-git commit -m '更新了指南的md'
+git commit -m '第三次在icon中测试selector组件'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f https://gitee.com/tow-youngui/tsheep-ui.git master:gh-pages
