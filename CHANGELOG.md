@@ -1,5 +1,12 @@
 
 
+### [0.1.1-1](https://gitee.com/tow-youngui/tsheep-ui/compare/0.1.1-0...0.1.1-1) (2023-05-08)
+
+
+### 🔧问题修复
+
+* 🐛 将Selector组件放置好在站点中了，修改了字体颜色bug ([030dd05](https://gitee.com/tow-youngui/tsheep-ui/commit/030dd055e7e9f7ab872df05d96d4f44198229290))
+
 ### [0.1.1-0](https://gitee.com/tow-youngui/tsheep-ui/compare/0.1.0...0.1.1-0) (2023-05-08)
 
 
