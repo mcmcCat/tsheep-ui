@@ -58,6 +58,10 @@ export default {
               text: "Icon 图标",
               link: "/components/Basic/Icon/",
             },
+            {
+              text: "Selector 下拉菜单",
+              link: "/components/Basic/Selector/",
+            },
           ],
         },
         {

@@ -1,22 +1,9 @@
-<style>
-    .example{
-        border: 1px solid #f5f5f5;
-        border-radius: 5px;
-        padding:20px
-    }
-    
-    details > summary:first-of-type {
-        font-size: 10px;
-        padding: 8px 0;
-        cursor: pointer;
-        color: #1989fa;
-    }
-</style>
-
 # Button 按钮 
-## (此处是引入elementuiplus的库来使用，仅供参考！)
-在vitepress/theme/index.js中
-  
+## 此文档当作如何在md文档中使用vue组件的示例
+## (此处是引入elementuiplus的库来使用，仅供参考！在vitepress/theme/index.js中)
+## (现在已经删除elementuiplus，改用tsheep-ui，所以无样式)
+
+# 该Button组件待开发
 
 ## 基础用法
 
@@ -91,5 +78,23 @@
   </style>
   ```
 </details>
+
+<script setup>
+</script>
+
+<style>
+    .example{
+        border: 1px solid #f5f5f5;
+        border-radius: 5px;
+        padding:20px
+    }
+    
+    details > summary:first-of-type {
+        font-size: 10px;
+        padding: 8px 0;
+        cursor: pointer;
+        color: #1989fa;
+    }
+</style>
 
 
