@@ -4,7 +4,7 @@ layout: home
 hero:
   name: TwoYang UI
   text: 一个Vue3组件库
-  tagline: 简单、强大、高性能！
+  tagline: 简单、强大、高性能!!！
   actions:
     - theme: brand
       text: 开始
