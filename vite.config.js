@@ -10,7 +10,7 @@ export default defineConfig({
       name: "tsheep-ui", // 打包后dist目录下的js文件名
     },
     rollupOptions: {
-      external: ["vue"],
+      external: ["vue", "tsheep-ui"],
       output: {
         globals: {
           vue: "Vue",

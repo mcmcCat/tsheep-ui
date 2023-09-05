@@ -11,8 +11,7 @@ hero:
       link: /guild/installation
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
-
+      link: https://github.com/mcmcCat/tsheep-ui/tree/master
 
 features:
   - icon: 💡
@@ -24,5 +23,4 @@ features:
   - icon: 🛠️
     title: 按需引入
     details: 直接支持按需引入无需配置任何插件。
-
 ---

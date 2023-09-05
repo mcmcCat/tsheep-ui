@@ -34,10 +34,10 @@
     "ui"
   ],
   "repository": {
-    "type": "gitee",
-    "url": "https://gitee.com/tow-youngui/tsheep-ui"
+    "type": "github",
+    "url": "https://github.com/mcmcCat/tsheep-ui"
   },
-  "homepage": "https://tow-youngui.gitee.io/tsheep-ui/",
+  "homepage": "https://github.com/mcmcCat/tsheep-ui",
   "type": "module",
   "scripts": {
     "deploy": "deploy.sh",
@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "sass": "^1.62.1",
-    "tsheep-ui": "^0.1.0",
+    "tsheep-ui": "^0.1.1-1",
     "vitepress": "^1.0.0-alpha.74",
     "vue": "^3.2.47"
   },
