@@ -1,5 +1,12 @@
 
 
+### [0.1.2-0](https://github.com/mcmcCat/tsheep-ui/compare/0.1.1...0.1.2-0) (2023-09-05)
+
+
+### 👷项目测试
+
+* 💍 测试下是否github正常部署 ([1393b1d](https://github.com/mcmcCat/tsheep-ui/commit/1393b1d56aaf682b3838997a739bd357041b4b6a))
+
 ### [0.1.1](https://github.com/mcmcCat/tsheep-ui/compare/0.1.1-1...0.1.1) (2023-09-05)
 
 
