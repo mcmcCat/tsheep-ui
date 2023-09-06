@@ -1,5 +1,18 @@
 
 
+### [0.1.2](https://github.com/mcmcCat/tsheep-ui/compare/0.1.1...0.1.2) (2023-09-06)
+
+
+### ✨新功能
+
+* 🎸 Message消息提示组件完成 ([ec578ff](https://github.com/mcmcCat/tsheep-ui/commit/ec578ff296b76b8ab89f402c03b1dc41d5139334))
+
+
+### 👷项目测试
+
+* 💍 测试下是否github正常部署 ([1393b1d](https://github.com/mcmcCat/tsheep-ui/commit/1393b1d56aaf682b3838997a739bd357041b4b6a))
+* 💍 test ([2812f4a](https://github.com/mcmcCat/tsheep-ui/commit/2812f4ac6a2964b3767bf3405398e7d4cac62717))
+
 ### [0.1.2-0](https://github.com/mcmcCat/tsheep-ui/compare/0.1.1...0.1.2-0) (2023-09-05)
 
 
