@@ -25,10 +25,6 @@ export default defineConfig({
         find: "@",
         replacement: path.resolve(__dirname, "src"),
       },
-      {
-        find: "icon",
-        replacement: path.resolve(__dirname, "src/assets/icon"),
-      },
     ],
   },
 });

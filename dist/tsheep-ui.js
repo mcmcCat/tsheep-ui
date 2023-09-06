@@ -1,12 +1,12 @@
-import { computed as x, openBlock as u, createElementBlock as r, normalizeClass as $, unref as d, createElementVNode as i, renderSlot as b, getCurrentInstance as k, toDisplayString as h, pushScopeId as O, popScopeId as C, ref as D, onMounted as N, watch as j, Fragment as B, renderList as T, createBlock as q, reactive as w, toRefs as L, withDirectives as M, createVNode as y } from "vue";
-const _ = (e, s) => {
+import { computed as w, openBlock as u, createElementBlock as r, normalizeClass as S, unref as p, createElementVNode as d, renderSlot as j, getCurrentInstance as B, toDisplayString as V, pushScopeId as F, popScopeId as q, ref as f, onMounted as L, watch as k, Fragment as z, renderList as A, createBlock as C, reactive as E, toRefs as P, withDirectives as M, createVNode as b, Transition as Z, withCtx as H, normalizeStyle as R, createTextVNode as U, vShow as Y, createApp as G } from "vue";
+const _ = (e, n) => {
   const t = e.__vccOpts || e;
-  for (const [n, c] of s)
-    t[n] = c;
+  for (const [s, c] of n)
+    t[s] = c;
   return t;
-}, E = {
+}, J = {
   name: "tyButton"
-}, F = /* @__PURE__ */ Object.assign(E, {
+}, K = /* @__PURE__ */ Object.assign(J, {
   props: {
     type: {
       type: String,
@@ -14,51 +14,51 @@ const _ = (e, s) => {
     }
   },
   setup(e) {
-    const s = e, t = x(() => [
+    const n = e, t = w(() => [
       "ty-button",
-      s.type == "" ? "" : `ty-button-${s.type}`
+      n.type == "" ? "" : `ty-button-${n.type}`
     ]);
-    return (n, c) => (u(), r("div", {
-      class: $(d(t))
+    return (s, c) => (u(), r("div", {
+      class: S(p(t))
     }, [
-      i("button", null, [
-        b(n.$slots, "default", {}, void 0, !0)
+      d("button", null, [
+        j(s.$slots, "default", {}, void 0, !0)
       ])
     ], 2));
   }
-}), p = /* @__PURE__ */ _(F, [["__scopeId", "data-v-25ffb706"]]);
-p.install = (e) => {
-  e.component(p.name, p);
+}), h = /* @__PURE__ */ _(K, [["__scopeId", "data-v-25ffb706"]]);
+h.install = (e) => {
+  e.component(h.name, h);
 };
-const A = { class: "" }, z = ["value"], H = {
+const Q = { class: "" }, W = ["value"], X = {
   name: "tyInput"
-}, f = /* @__PURE__ */ Object.assign(H, {
+}, g = /* @__PURE__ */ Object.assign(X, {
   props: {
     modelValue: String | Number
   },
   emits: ["update:modelValue"],
-  setup(e, { emit: s }) {
-    const t = (n) => {
-      s("update:modelValue", n.target.value);
+  setup(e, { emit: n }) {
+    const t = (s) => {
+      n("update:modelValue", s.target.value);
     };
-    return (n, c) => (u(), r("div", A, [
-      i("input", {
+    return (s, c) => (u(), r("div", Q, [
+      d("input", {
         type: "text",
         value: e.modelValue,
         onInput: t
-      }, null, 40, z)
+      }, null, 40, W)
     ]));
   }
 });
-f.install = (e) => {
-  e.component(f.name, f);
+g.install = (e) => {
+  e.component(g.name, g);
 };
-const P = (e) => (O("data-v-58c4a7f2"), e = e(), C(), e), R = { class: "selector-input" }, U = {
+const ee = (e) => (F("data-v-a9322952"), e = e(), q(), e), te = { class: "selector-input" }, ne = {
   class: "placeholder",
   for: "input"
-}, Y = ["value"], G = /* @__PURE__ */ P(() => /* @__PURE__ */ i("span", { class: "iconfont icon-s-xiajiantou" }, null, -1)), J = {
+}, se = ["value"], oe = /* @__PURE__ */ ee(() => /* @__PURE__ */ d("span", { class: "iconfont icon-s-xiajiantou" }, null, -1)), ae = {
   name: "SelectorInput"
-}, K = /* @__PURE__ */ Object.assign(J, {
+}, ce = /* @__PURE__ */ Object.assign(ae, {
   props: {
     placeholder: {
       type: String,
@@ -70,43 +70,43 @@ const P = (e) => (O("data-v-58c4a7f2"), e = e(), C(), e), R = { class: "selector
     }
   },
   emits: ["searchOptions"],
-  setup(e, { emit: s }) {
-    const t = k(), n = (a) => {
-      console.log(a.target.value), s("searchOptions", a.target.value);
-    }, c = (a) => {
-      console.log(`之前选中的option:${a}`);
-      const o = t.refs.inputValue;
-      o.value.length > 0 && (o.value = a);
+  setup(e, { emit: n }) {
+    const t = B(), s = (o) => {
+      console.log(o.target.value), n("searchOptions", o.target.value);
+    }, c = (o) => {
+      console.log(`之前选中的option:${o}`);
+      const a = t.refs.inputValue;
+      a.value.length > 0 && (a.value = o);
     };
-    return (a, o) => (u(), r("div", R, [
-      i("label", U, h(e.placeholder), 1),
-      i("input", {
+    return (o, a) => (u(), r("div", te, [
+      d("label", ne, V(e.placeholder), 1),
+      d("input", {
         ref: "inputValue",
         type: "text",
         class: "input",
         value: e.value,
-        onInput: o[0] || (o[0] = (l) => n(l)),
-        onFocus: o[1] || (o[1] = (l) => n(l)),
-        onBlur: o[2] || (o[2] = (l) => c(e.value)),
+        onInput: a[0] || (a[0] = (l) => s(l)),
+        onFocus: a[1] || (a[1] = (l) => s(l)),
+        onBlur: a[2] || (a[2] = (l) => c(e.value)),
         id: "input"
-      }, null, 40, Y),
-      G
+      }, null, 40, se),
+      oe
     ]));
   }
-}), g = /* @__PURE__ */ _(K, [["__scopeId", "data-v-58c4a7f2"]]);
-const Q = {
+}), O = /* @__PURE__ */ _(ce, [["__scopeId", "data-v-a9322952"]]);
+const le = {
   name: "NoDataTip"
-}, W = { class: "no-data-tip" };
-function X(e, s, t, n, c, a) {
-  return u(), r("div", W, " - 没有搜索到数据 - ");
+}, ue = { class: "no-data-tip" };
+function re(e, n, t, s, c, o) {
+  return u(), r("div", ue, " - 没有搜索到数据 - ");
 }
-const I = /* @__PURE__ */ _(Q, [["render", X], ["__scopeId", "data-v-f720f1f5"]]);
-const Z = { class: "selector-menu" }, ee = ["onClick"], te = {
+const N = /* @__PURE__ */ _(le, [["render", re], ["__scopeId", "data-v-f720f1f5"]]);
+const ie = { class: "selector-menu" }, de = ["onClick"], _e = {
   name: "SelectorMenu",
   components: {
-    NoDataTip: I
+    NoDataTip: N
   }
-}, ne = /* @__PURE__ */ Object.assign(te, {
+}, pe = /* @__PURE__ */ Object.assign(_e, {
   props: {
     data: {
       type: Array,
@@ -134,41 +134,41 @@ const Z = { class: "selector-menu" }, ee = ["onClick"], te = {
     }
   },
   emits: ["setItemValue"],
-  setup(e, { emit: s }) {
-    const t = e, n = D([]);
-    function c(o) {
-      s("setItemValue", o);
+  setup(e, { emit: n }) {
+    const t = e, s = f([]);
+    function c(a) {
+      n("setItemValue", a);
     }
-    const a = (o) => {
-      n.value = t.data.filter((l) => l.text.toLowerCase().includes(t.searchValue.toLowerCase()));
+    const o = (a) => {
+      s.value = t.data.filter((l) => l.text.toLowerCase().includes(t.searchValue.toLowerCase()));
     };
-    return N(() => {
-      n.value = t.data;
-    }), j(() => t.searchValue, (o) => {
-      a();
-    }), (o, l) => (u(), r("div", Z, [
-      n.value.length > 0 ? (u(!0), r(B, { key: 0 }, T(n.value, (m, S) => (u(), r("div", {
+    return L(() => {
+      s.value = t.data;
+    }), k(() => t.searchValue, (a) => {
+      o();
+    }), (a, l) => (u(), r("div", ie, [
+      s.value.length > 0 ? (u(!0), r(z, { key: 0 }, A(s.value, (i, I) => (u(), r("div", {
         class: "menu-item",
-        key: S,
-        onClick: (ue) => c(m)
-      }, h(m.text), 9, ee))), 128)) : (u(), q(I, { key: 1 }))
+        key: I,
+        onClick: ($) => c(i)
+      }, V(i.text), 9, de))), 128)) : (u(), C(N, { key: 1 }))
     ]));
   }
-}), V = /* @__PURE__ */ _(ne, [["__scopeId", "data-v-edc6401e"]]), se = {
+}), D = /* @__PURE__ */ _(pe, [["__scopeId", "data-v-edc6401e"]]), fe = {
   mounted(e) {
-    const s = e.querySelector(".selector-input"), t = e.querySelector(".selector-menu"), n = s.querySelector("input"), c = s.querySelector("label"), a = s.querySelector("span");
-    n.addEventListener(
+    const n = e.querySelector(".selector-input"), t = e.querySelector(".selector-menu"), s = n.querySelector("input"), c = n.querySelector("label"), o = n.querySelector("span");
+    s.addEventListener(
       "focus",
       function() {
-        c.style.display = "none", a.className = "iconfont icon-sousuo", setTimeout(() => {
+        c.style.display = "none", o.className = "iconfont icon-sousuo", setTimeout(() => {
           t.style.display = "block";
         }, 200);
       },
       !1
-    ), n.addEventListener(
+    ), s.addEventListener(
       "blur",
       function() {
-        a.className = "iconfont icon-s-xiajiantou", setTimeout(() => {
+        o.className = "iconfont icon-s-xiajiantou", setTimeout(() => {
           t.style.display = "none", this.value.length === 0 && (c.style.display = "block");
         }, 200);
       },
@@ -176,13 +176,13 @@ const Z = { class: "selector-menu" }, ee = ["onClick"], te = {
     );
   }
 };
-const oe = { class: "selector" }, ae = {
+const me = { class: "selector" }, ve = {
   name: "tySelector",
   components: {
-    SelectorInput: g,
-    SelectorMenu: V
+    SelectorInput: O,
+    SelectorMenu: D
   }
-}, ce = /* @__PURE__ */ Object.assign(ae, {
+}, ye = /* @__PURE__ */ Object.assign(ve, {
   props: {
     placeholder: {
       type: String,
@@ -193,42 +193,116 @@ const oe = { class: "selector" }, ae = {
     }
   },
   emits: ["setItemValue"],
-  setup(e, { emit: s }) {
-    const t = w({
+  setup(e, { emit: n }) {
+    const t = E({
       inputValue: "",
       searchValue: ""
-    }), n = (l) => {
-      t.inputValue = l.text, s("setItemValue", l.text);
+    }), s = (l) => {
+      t.inputValue = l.text, n("setItemValue", l.text);
     }, c = (l) => {
       t.searchValue = l;
-    }, { inputValue: a, searchValue: o } = L(t);
-    return (l, m) => M((u(), r("div", oe, [
-      y(g, {
+    }, { inputValue: o, searchValue: a } = P(t);
+    return (l, i) => M((u(), r("div", me, [
+      b(O, {
         placeholder: e.placeholder,
-        value: d(a),
+        value: p(o),
         onSearchOptions: c
       }, null, 8, ["placeholder", "value"]),
-      y(V, {
+      b(D, {
         data: e.data,
-        onSetItemValue: n,
-        searchValue: d(o)
+        onSetItemValue: s,
+        searchValue: p(a)
       }, null, 8, ["data", "searchValue"])
     ])), [
-      [d(se)]
+      [p(fe)]
     ]);
   }
-}), v = /* @__PURE__ */ _(ce, [["__scopeId", "data-v-16de97d0"]]);
-v.install = (e) => {
-  e.component(v.name, v);
+}), x = /* @__PURE__ */ _(ye, [["__scopeId", "data-v-16de97d0"]]);
+x.install = (e) => {
+  e.component(x.name, x);
 };
-const le = (e) => {
-  e.use(p), e.use(f), e.use(v);
-}, ie = {
-  install: le
+const he = {
+  __name: "index",
+  props: {
+    type: {
+      type: String,
+      default: "success"
+    },
+    message: {
+      type: String,
+      default: "success~"
+    }
+  },
+  setup(e, { expose: n }) {
+    const t = e, s = f(!1);
+    let c = null;
+    const o = f(20), a = f(999), l = ["message", t.type], i = w(() => t.type === "success" ? ["iconfont", "icon-ok-block"] : t.type === "warning" ? ["iconfont", "icon-exclamation-point-block"] : ["iconfont", "icon-close-block"]);
+    function I(v) {
+      return new Promise((y) => {
+        s.value = v, c = setTimeout(() => {
+          clearTimeout(c), c = null, y("fade动画执行完成");
+        }, 300);
+      });
+    }
+    function $(v, y) {
+      o.value = v, a.value = y;
+    }
+    return n({
+      setIsShow: I,
+      setTop: $,
+      height: 30,
+      // 信息框的高度
+      consTop: 20,
+      // 信息框的固定间距
+      consZIndex: 999
+      // 最低层级
+    }), (v, y) => (u(), C(Z, { name: "message-fade" }, {
+      default: H(() => [
+        M(d("div", {
+          style: R({ "margin-top": o.value + "px", "z-index": a.value }),
+          class: S(l)
+        }, [
+          d("i", {
+            class: S(p(i))
+          }, null, 2),
+          U(" " + V(e.message), 1)
+        ], 4), [
+          [Y, s.value]
+        ])
+      ]),
+      _: 1
+    }));
+  }
+}, ge = /* @__PURE__ */ _(he, [["__scopeId", "data-v-9ff24a88"]]), xe = function(e) {
+  const n = G(
+    ge,
+    e
+    // 传给Message组件的props
+  );
+  Ie(n, e.duration);
+}, m = f([]), Ie = function(e, n) {
+  const t = document.createDocumentFragment(), s = e.mount(t);
+  m.value.push(s), document.body.appendChild(t), T(s), s.setIsShow(!0), k(m, () => {
+    T(s);
+  }), Se(e, s, n);
+}, Se = function(e, n, t) {
+  n.timer = setTimeout(async () => {
+    await n.setIsShow(!1), e.unmount(), m.value = m.value.filter((s) => s !== n), clearTimeout(n.timer), n.timer = null;
+  }, t ?? 3e3);
+}, T = function(e) {
+  const { setTop: n, height: t, consTop: s, consZIndex: c } = e, o = m.value.findIndex((i) => i === e), a = t * o + (o + 1) * s, l = o + c;
+  n(a, l);
+}, Ve = (e, n) => (e.install = (t) => {
+  e._context = t._context, t.config.globalProperties[n] = e;
+}, e), $e = Ve(xe, "$message"), be = (e) => {
+  e.use(h), e.use(g), e.use(x), e.use($e);
+}, we = {
+  install: be
 };
 export {
-  ie as default,
-  p as tyButton,
-  f as tyInput,
-  v as tySelector
+  we as default,
+  h as tyButton,
+  g as tyInput,
+  $e as tyMessage,
+  x as tySelector
 };

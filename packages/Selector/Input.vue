@@ -13,7 +13,7 @@
 </script>
 
 <script setup>
-  import 'icon/iconfont.css'
+  import '@/assets/icon/iconfont.css'
   // 能够拿到当前组件的实例的vue方法
   import { getCurrentInstance } from 'vue';
 

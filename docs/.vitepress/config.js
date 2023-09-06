@@ -62,6 +62,10 @@ export default {
               text: "Selector 下拉菜单",
               link: "/components/Basic/Selector/",
             },
+            {
+              text: "Message 消息提示",
+              link: "/components/Basic/Message/",
+            },
           ],
         },
         {
