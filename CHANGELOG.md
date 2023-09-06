@@ -1,5 +1,17 @@
 
 
+## [1.0.0](https://github.com/mcmcCat/tsheep-ui/compare/0.1.3...1.0.0) (2023-09-06)
+
+
+### ✨新功能
+
+* 🎸 message组件测试完毕 ([4e20db1](https://github.com/mcmcCat/tsheep-ui/commit/4e20db1975d16c2e9ea5efc9e8e5eacc83054da7))
+
+
+### 🔧问题修复
+
+* 🐛 修复一点不合理的bug ([7bcd17c](https://github.com/mcmcCat/tsheep-ui/commit/7bcd17c6d5dda9d66570ba7de88fe658987e1b51))
+
 ### [0.1.3](https://github.com/mcmcCat/tsheep-ui/compare/0.1.1...0.1.3) (2023-09-06)
 
 
