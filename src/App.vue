@@ -33,16 +33,16 @@
   const instance = getCurrentInstance()
   const $message = instance.appContext.config.globalProperties.$message
   const show1 = () => {
-    $message({
-      type: 'success',
-      message: '欢迎光临~~~',
-      duration: 3000,
-    }) 
-    // tyMessage({
+    // $message({
     //   type: 'success',
     //   message: '欢迎光临~~~',
     //   duration: 3000,
-    // });
+    // }) 
+    tyMessage({
+      type: 'success',
+      message: '欢迎光临~~~',
+      duration: 3000,
+    });
   };
   const show2 = () => {
     tyMessage({

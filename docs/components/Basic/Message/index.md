@@ -22,13 +22,9 @@
   </div>
 </template>
  
-<script>
-  export default {
-    name: 'App'
-  }
-</script>
 <script setup>
   import { ref } from 'vue'
+  import { tyMessage } from 'tsheep-ui'
 
   const show = () => {
     tyMessage({
@@ -46,6 +42,7 @@
 
 <script setup>
   import { ref } from 'vue'
+  import { tyMessage } from 'tsheep-ui'
 
   const show = () => {
     tyMessage({
